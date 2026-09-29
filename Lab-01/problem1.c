@@ -59,5 +59,22 @@ int main()
     return 0;
 }
 
+#include<stdio.h>
+int main()
+{
+int a,second;
+printf("Enter a number:");
+scanf("%d",&a);
+
+while(a>=100)
+{
+    a=a/10;
+}
+a=a%10;
+second=a;
+
+printf("2nd digit=%d",second);
+return 0;
+}
 
 
